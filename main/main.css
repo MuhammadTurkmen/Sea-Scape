@@ -19,7 +19,7 @@ section {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 1fr;
+    grid-template-rows: 100px 1fr;
 }
 
 .first-wrapper {
@@ -31,6 +31,11 @@ section {
 .first-wrapper > .first-text > h1, .second-text > h1, .third-text > h1 {
     font-size: 1.2rem;
 }
+
+.first-wrapper > .first-text > p, .second-text > p, .third-text > p {
+    font-size: 1.2rem;
+}
+
 
 .second-wrapper {
     display: grid;
@@ -45,10 +50,11 @@ section {
 
 .title {
     grid-area: title;
+    text-align: center;
 }
 
 .title-1 {
-    font-size: 8.3rem;
+    font-size: 8.4rem;
     margin: 0;
 }
 
@@ -63,6 +69,7 @@ img {
 
 .second-para {
     grid-area: second;
+    margin-left: 3rem;
 }
 
 .first-img-div {
