@@ -18,5 +18,5 @@ section {
     width: 472px;
     max-width: 1000px;
     display: grid;
-    
+    grid-template-columns: 1fr;
 }
