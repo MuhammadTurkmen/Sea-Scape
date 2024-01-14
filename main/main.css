@@ -15,7 +15,7 @@ body {
 
 section {
     margin: 5em auto;
-    width: 472px;
+    width: 530px;
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;
@@ -25,6 +25,7 @@ section {
 .first-wrapper {
     display: flex;
     gap: 2.5rem;
+    padding: 0 3rem;
 }
 
 .second-wrapper {
@@ -35,6 +36,7 @@ section {
         "big big"
         "first-img second-img";
         gap: .2rem;
+    padding: 0 3rem;
 }
 
 .title {
