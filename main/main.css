@@ -28,6 +28,10 @@ section {
     padding: 0 3rem;
 }
 
+.first-wrapper > .first-text > h1, .second-text > h1, .third-text > h1 {
+    font-size: 1.2rem;
+}
+
 .second-wrapper {
     display: grid;
     grid-template-areas: 
