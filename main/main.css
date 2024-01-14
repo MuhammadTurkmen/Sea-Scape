@@ -36,3 +36,12 @@ section {
         "big gib"
         "first-img second-img";
 }
+
+.title {
+    grid-area: title;
+}
+
+.first-para {
+    grid-area: first;
+}
+
