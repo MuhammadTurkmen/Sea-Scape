@@ -19,4 +19,11 @@ section {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr;
+    gap: 1rem;
+}
+
+.first-wrapper {
+    display: flex;
+    gap: 2.5rem;
 }
