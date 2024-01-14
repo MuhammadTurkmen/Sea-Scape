@@ -17,4 +17,6 @@ section {
     margin: 5em auto;
     width: 472px;
     max-width: 1000px;
+    display: grid;
+    
 }
