@@ -30,4 +30,9 @@ section {
 
 .second-wrapper {
     display: grid;
+    grid-template-areas: 
+        "title title"
+        "first second"
+        "big gib"
+        "first-img second-img";
 }
