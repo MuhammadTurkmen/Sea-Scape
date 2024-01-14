@@ -19,7 +19,7 @@ section {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 1fr;
+    grid-template-rows: 150px 1fr;
 }
 
 .first-wrapper {
@@ -42,7 +42,8 @@ section {
 }
 
 .title-1 {
-    
+    font-size: 8.3rem;
+    margin: 0;
 }
 
 .first-para {
