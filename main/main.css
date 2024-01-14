@@ -19,8 +19,7 @@ section {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr;
-    gap: 1rem;
+    grid-template-rows: 20% 1fr;
 }
 
 .first-wrapper {
@@ -35,6 +34,7 @@ section {
         "first second"
         "big big"
         "first-img second-img";
+        gap: .2rem;
 }
 
 .title {
@@ -43,6 +43,11 @@ section {
 
 .first-para {
     grid-area: first;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 .second-para {
