@@ -13,3 +13,6 @@ body {
 }
 
 
+section {
+    display: grid;
+}
