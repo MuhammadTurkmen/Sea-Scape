@@ -33,7 +33,7 @@ section {
     grid-template-areas: 
         "title title"
         "first second"
-        "big gib"
+        "big big"
         "first-img second-img";
 }
 
@@ -45,3 +45,10 @@ section {
     grid-area: first;
 }
 
+.second-para {
+    grid-area: second;
+}
+
+.first-img-div {
+    grid-area: big;
+}
