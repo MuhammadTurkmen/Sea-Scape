@@ -41,6 +41,10 @@ section {
     grid-area: title;
 }
 
+.title-1 {
+    
+}
+
 .first-para {
     grid-area: first;
 }
