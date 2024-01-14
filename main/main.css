@@ -27,3 +27,7 @@ section {
     display: flex;
     gap: 2.5rem;
 }
+
+.second-wrapper {
+    display: grid;
+}
