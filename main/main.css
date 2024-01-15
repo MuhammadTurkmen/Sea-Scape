@@ -9,8 +9,6 @@ html {
 body {
     background: #F0C5AD;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
-    margin: 0;
 }
 
 
@@ -82,16 +80,26 @@ img {
 
     .first-wrapper {
         justify-content: space-between;
+        padding: 0;
     }
 
     .first-text, .second-text, .third-text {
         width: 294px;
     }
 
+    .title-1 {
+        font-size: 10rem;
+    }
+
     section {
-        width: unset;
+        width: 900px;
         margin: 0 auto;
+        grid-template-columns: 1fr;
+        padding: 0;
         
+    }
+    img {
+        width: 100%;
     }
 
     .second-wrapper {
@@ -99,10 +107,13 @@ img {
             "big title title"
             "big first second"
             "big first-ime second-ime";
-        grid-template-columns: unset;
-        grid-template-columns: unset;
+        grid-template-columns: repeat(3, 1fr);
         padding: 0;
+        margin: 0;
     }
-    
+
+    .big {
+        width: 294px;
+    }
     
 }
