@@ -99,7 +99,7 @@ img {
         width: 900px;
         margin: 0 auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 150px 1fr;
+        grid-template-rows: 200px 1fr;
         padding: 0;
         
     }
@@ -125,8 +125,14 @@ img {
         border-left: 1px solid #CCAB99 ;
         margin-top: 0;
         width: 298px;
+        padding-top: 4.9rem;
+        
     }
     .first-text {
         border-right: 1px solid #CCAB99;
+    }
+    .first-text {
+        padding-top: 4.9rem;
+
     }
 }
