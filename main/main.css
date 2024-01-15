@@ -120,19 +120,26 @@ img {
     .big {
         width: 100%;
     }
+    img {
+        object-fit: cover;
+    }
     
     .first-text, .third-text {
         border-left: 1px solid #CCAB99 ;
         margin-top: 0;
         width: 298px;
         padding-top: 4.9rem;
+        padding-left: 3.4rem;
+        padding-right: 7.3rem;
         
     }
     .first-text {
         border-right: 1px solid #CCAB99;
     }
-    .first-text {
+    .second-text {
         padding-top: 4.9rem;
+        padding-left: 3.4rem;
+        padding-right: 7.3rem;
 
     }
 }
