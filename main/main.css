@@ -76,11 +76,15 @@ img {
 }
 
 @media only screen and (min-width: 1000px) {
-
+    body {
+        margin: 0;
+    }
 
     .first-wrapper {
         justify-content: space-between;
         padding: 0;
+        margin: 0;
+        gap: 0;
     }
 
     .first-text, .second-text, .third-text {
@@ -95,6 +99,7 @@ img {
         width: 900px;
         margin: 0 auto;
         grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
         padding: 0;
         
     }
@@ -113,7 +118,15 @@ img {
     }
 
     .big {
-        width: 294px;
+        width: 100%;
     }
     
+    .first-text, .third-text {
+        border-left: 1px solid #CCAB99 ;
+        margin-top: 0;
+        width: 298px;
+    }
+    .first-text {
+        border-right: 1px solid #CCAB99;
+    }
 }
