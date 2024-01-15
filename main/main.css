@@ -142,6 +142,13 @@ img {
         padding-top: 4.9rem;
         padding-left: 3.4rem;
         padding-right: 7.3rem;
-
     }
+
+
+   p {
+    margin: 0;
+   }
+   .first-para, .second-para { 
+        padding-bottom: 4.5rem;
+   }
 }
