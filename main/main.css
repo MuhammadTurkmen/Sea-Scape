@@ -10,6 +10,7 @@ body {
     background: #F0C5AD;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    margin: 0;
 }
 
 
@@ -76,10 +77,33 @@ img {
     grid-area: big;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
+
+
+    .first-wrapper {
+        justify-content: space-between;
+    }
+
+    .first-text, .second-text, .third-text {
+        width: 294px;
+    }
+
     section {
         width: unset;
         max-width: 900px;
+        margin: 0 auto;
+        
     }
+
+    .second-wrapper {
+        grid-template-areas: 
+            "big title title"
+            "big first second"
+            "big first-ime second-ime";
+        grid-template-columns: unset;
+        grid-template-columns: unset;
+        padding: 0;
+    }
+    
     
 }
